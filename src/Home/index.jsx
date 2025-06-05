@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import CountryCard from '../../components/CountryCard';
+import CountryCard from '../components/CountryCard';
 
 export default function Home() {
   const [countries, setCountries] = useState([]);

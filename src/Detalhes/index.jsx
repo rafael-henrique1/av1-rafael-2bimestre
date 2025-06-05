@@ -1,7 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { useFavoritos } from '../../context/FavoritosContext';
+import { useFavoritos } from '../context/FavoritosContext';
 
 export default function Detalhes() {
   const { name } = useParams();

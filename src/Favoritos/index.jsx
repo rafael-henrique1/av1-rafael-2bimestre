@@ -4,7 +4,8 @@ import CountryCard from '../../components/CountryCard';
 export default function Favoritos() {
   const { favoritos } = useFavoritos();
 
-  if (favoritos.length === 0) {
+  if (favoritos.length === 0) {git q
+    
     return <p className="p-4">Nenhum país favoritado.</p>;
   }
 

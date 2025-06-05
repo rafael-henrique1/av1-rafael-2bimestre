@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from '../Home';
-import Detalhes from '../../Detalhes';
-import Favoritos from '../../Favoritos';
+import Detalhes from '../Detalhes';
+import Favoritos from '../Favoritos';
 
 function AppRoutes() {
   return (
